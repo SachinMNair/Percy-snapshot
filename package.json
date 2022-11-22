@@ -1,0 +1,15 @@
+{
+  "name": "percy-cli-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx @percy/cli@1.14.0 snapshot percySnapshots.js -v"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.14.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
